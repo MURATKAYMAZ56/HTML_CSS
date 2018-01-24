@@ -1,0 +1,120 @@
+ul{
+    margin: 0;
+    padding: 0;
+    list-style-type: none;
+}
+
+#grid-floats .grid-item{
+    box-sizing: border-box;
+    padding: 20px;
+    margin-left: 1%;
+    margin-top: 1%;
+    float: left;
+}
+
+.grid-item img{
+    max-width:100% 
+}
+
+#grid-flex {
+    
+    display: flex;
+    flex-flow: column wrap;
+
+   
+    
+}
+#grid-flex .grid-item{
+    margin-left: 1%;
+    margin-top: 1%;
+    
+
+
+}
+
+
+/* For mobile phones: */
+@media only screen and (max-width: 668px) {
+    body{
+        background: rgb(209, 224, 209);
+    }
+
+    #grid-floats .grid-item{
+        width:48.5%;
+        min-height: 520px;
+    }
+    #grid-floats .grid-item:nth-child(1){
+        width: 98%;
+    }
+    
+
+    #grid-flex .grid-item{
+       
+       flex-basis: 48.5%;
+
+       
+
+    }
+
+    #grid-flex .grid-item:nth-child(1){
+        flex-basis: 98%;
+        
+        
+    }
+    #grid-flex .grid-item:last-child{
+        
+        
+        
+    }
+
+    
+ 
+}
+
+
+ /* For tablets: */
+@media only screen and (min-width: 668px)and (max-width: 1024px) {
+    body{
+        background: rgb(235, 204, 227);
+    }
+    #grid-floats .grid-item{
+        width:32%;
+        min-height: 470px;
+    }
+    
+    #grid-floats .grid-item:nth-child(1), #grid-floats .grid-item:nth-child(2){
+        width: 48.5%
+    } 
+    
+    
+   
+ 
+}
+
+/* For desktop: */
+@media only screen and (min-width: 1024px) {
+    body{
+        background: rgb(130, 176, 214);
+    }
+    
+    #grid-floats .grid-item{
+         
+        width:24%;
+        min-height: 680px;
+    
+    }
+    
+    #grid-floats .grid-item:nth-child(1){
+        width: 48%
+    }
+    
+ 
+}
+
+
+
+
+
+
+
+
