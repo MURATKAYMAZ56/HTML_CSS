@@ -1,4 +1,4 @@
-ul{
+ul {
     margin: 0;
     padding: 0;
     list-style-type: none;
@@ -19,12 +19,13 @@ ul{
 #grid-flex {
     
     display: flex;
-    flex-flow: column wrap;
+    flex-flow: row wrap;
+    justify-content: space-around
 
    
     
 }
-#grid-flex .grid-item{
+/*#grid-flex .grid-item{
     margin-left: 1%;
     margin-top: 1%;
     
@@ -49,8 +50,9 @@ ul{
     
 
     #grid-flex .grid-item{
-       
-       flex-basis: 48.5%;
+       flex-basis: 48%;
+         min-height: 520px;
+        width: :48.5%;
 
        
 
@@ -62,6 +64,8 @@ ul{
         
     }
     #grid-flex .grid-item:last-child{
+        flex-basis: 48.5%;
+        justify-content: unset;
         
         
         
@@ -85,6 +89,27 @@ ul{
     #grid-floats .grid-item:nth-child(1), #grid-floats .grid-item:nth-child(2){
         width: 48.5%
     } 
+    #grid-flex .grid-item{
+        flex-basis: 32%;
+          min-height: 520px;
+         width: :48.5%;
+ 
+        
+ 
+     }
+ 
+     #grid-flex .grid-item:nth-child(1){
+         flex-basis: 48.5%;
+         
+         
+     }
+     #grid-flex .grid-item:last-child{
+         flex-basis: 32%;
+         justify-content: unset;
+         
+         
+         
+     }
     
     
    
@@ -107,6 +132,27 @@ ul{
     #grid-floats .grid-item:nth-child(1){
         width: 48%
     }
+    #grid-flex .grid-item{
+        flex-basis: 24%;
+          min-height: 680px;
+        
+ 
+        
+ 
+     }
+ 
+     #grid-flex .grid-item:nth-child(1){
+         flex-basis: 48%;
+         
+         
+     }
+     #grid-flex .grid-item:last-child{
+         flex-basis: 24%;
+         justify-content: unset;
+         
+         
+         
+     }
     
  
 }
