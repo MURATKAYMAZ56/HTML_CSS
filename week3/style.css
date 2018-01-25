@@ -3,7 +3,9 @@ ul {
     padding: 0;
     list-style-type: none;
 }
-
+#grid-floats::after{
+    clear: both
+}
 #grid-floats .grid-item{
     box-sizing: border-box;
     padding: 20px;
@@ -15,7 +17,9 @@ ul {
 .grid-item img{
     max-width:100% 
 }
-
+#grid-flex:{
+    clear: both
+}
 #grid-flex {
     
     display: flex;
