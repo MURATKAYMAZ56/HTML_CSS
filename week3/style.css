@@ -3,9 +3,10 @@ ul {
     padding: 0;
     list-style-type: none;
 }
-#grid-floats::after{
+section{
     clear: both
 }
+
 #grid-floats .grid-item{
     box-sizing: border-box;
     padding: 20px;
@@ -17,9 +18,8 @@ ul {
 .grid-item img{
     max-width:100% 
 }
-#grid-flex:{
-    clear: both
-}
+
+
 #grid-flex {
     
     display: flex;
@@ -56,7 +56,7 @@ ul {
     #grid-flex .grid-item{
        flex-basis: 48%;
          min-height: 520px;
-        width: :48.5%;
+        width:48.5%;
 
        
 
@@ -96,7 +96,7 @@ ul {
     #grid-flex .grid-item{
         flex-basis: 32%;
           min-height: 520px;
-         width: :48.5%;
+         width:48.5%;
  
         
  
