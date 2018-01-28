@@ -6,7 +6,9 @@ ul {
 section{
     clear: both
 }
-
+.grid-item:hover{
+background-color: brown
+}
 #grid-floats .grid-item{
     box-sizing: border-box;
     padding: 20px;
