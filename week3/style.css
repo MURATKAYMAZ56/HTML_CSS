@@ -1,0 +1,17 @@
+header img {
+    float: left;
+    
+}
+#translate{
+    float: left
+}
+#nav{
+    float: right
+}
+#nav li {
+    float: left;
+    margin-right: 44px;
+}
+body{
+    background: url("https://storage.googleapis.com/twg-content/images/hp-hero.2e16d0ba.fill-1440x432.jpegquality-85.jpg") no-repeat
+}
