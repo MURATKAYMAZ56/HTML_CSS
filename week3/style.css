@@ -1,3 +1,39 @@
+/* Base */
+body{
+    background: url("https://storage.googleapis.com/twg-content/images/hp-hero.2e16d0ba.fill-1440x432.jpegquality-85.jpg") no-repeat
+}
+.clearfix {
+    clear:both
+}
+.left {
+    float: left;
+}
+.right {
+    float: right;
+}
+.row50 {
+    width: 50%;
+}
+.f32 {
+    font-size: 32px;
+}
+.f20 {
+    font-size: 20px;
+}
+ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+}
+button {
+    padding: 15px 10px;
+    border: 0;
+    outline: 0;
+    cursor: pointer;
+    font-size: 20px;
+}
+
+/* Header */
 header img {
     float: left;
     
@@ -13,10 +49,115 @@ header img {
     float: left;
     margin-right: 44px;
 }
-body{
-    background: url("https://storage.googleapis.com/twg-content/images/hp-hero.2e16d0ba.fill-1440x432.jpegquality-85.jpg") no-repeat
+
+/* Main Body */
+main {
 }
-/* Dropdown Button */
+main button {
+    background-color: #3367d6;
+    color: #fff;
+}
+#showcase {
+    height: 380px;
+    padding-left: 150px;
+}
+.flex {
+    display: flex;
+    flex-wrap: wrap;
+}
+.flex div.card {
+    height: 340px;
+    flex-basis: calc(25% - 10px);
+    margin-left: 10px;
+    margin-bottom: 10px;
+}
+.flex div.card h4 {
+    text-align: center;
+    padding: 20px 0;
+    font-size: 24px;
+}
+.card-visit{
+    position: relative;
+}
+.pic {
+    height: 180px;
+    background-size: cover;
+    background-position: 50%;
+}
+.card-visit .pic{
+    height: 100%;
+    width: 100%;
+}
+#trend-flex div:nth-child(1),
+#trend-flex div:nth-child(6){
+    flex-basis: calc(50% - 10px);
+}
+.presentation .pic {
+    background-image: url("https://storage.googleapis.com/twg-content/images/FINAL-personal-searches.width-800.jpg");
+}
+.insights .pic {
+    background-image: url("https://storage.googleapis.com/twg-content/original_images/TwG_CLN_ILLUSTRATIONS_120717-05.png");
+}
+.fans .pic {
+    background-image: url("https://storage.googleapis.com/twg-content/images/1184-Sports-Fans-Infographic-Thumbnail.width-800.jpg");
+}
+.consumers .pic {
+    background-image: url("https://storage.googleapis.com/twg-content/images/1143-Personal-Needs-perspective-Thumbnail.width-800.jpg");
+}
+.advertising .pic {
+    background-image: url("https://storage.googleapis.com/twg-content/images/1168-Turner-Sports-Thumbnail.width-800.jpg");
+}
+.marketing .pic {
+    background-image: url("https://storage.googleapis.com/twg-content/images/1186-Bain-Thumbnail.width-800.jpg");
+}
+
+.shopping .pic {
+    background-image: url("https://storage.googleapis.com/twg-content/original_images/shopping-insights-icon.png");
+}
+.barometer .pic {
+    background-image: url("https://storage.googleapis.com/twg-content/original_images/consumerbarometer.png");
+}
+.trends .pic {
+    background-image: url("https://storage.googleapis.com/twg-content/original_images/2017-05-11-min.png");
+}
+.benchmarks .pic {
+    background-image: url("https://storage.googleapis.com/twg-content/original_images/display_1.png");
+}
+
+/* Footer */
+footer {
+    background-color: #3367d6;
+    padding: 0 20px 40px 20px;
+}
+footer ul li {
+    float: left;
+    margin-left: 30px;
+}
+footer ul li:first-child {
+    font-size: 18px;
+}
+footer input {
+    width: 100%;
+    border: 0;
+    border-bottom: 1px solid #fff;
+    outline: 0;
+    padding: 5px;
+    background: none;
+}
+footer input::-webkit-input-placeholder {
+    color: #fff;
+}
+footer button {
+    background-color: #fff;
+    color: #3367d6;
+}
+#footer-head {
+    padding: 40px 0;
+    color: #fff;
+}
+
+
+/* Dropdown */
 .dropbtn {
     background-color: #4CAF50;
     color: white;
