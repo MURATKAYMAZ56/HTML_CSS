@@ -1,6 +1,6 @@
 /* Base */
 body{
-    background: url("https://storage.googleapis.com/twg-content/images/hp-hero.2e16d0ba.fill-1440x432.jpegquality-85.jpg") no-repeat
+    background: #F5F5F5 url("https://storage.googleapis.com/twg-content/images/hp-hero.2e16d0ba.fill-1440x432.jpegquality-85.jpg") no-repeat
 }
 .clearfix {
     clear:both
@@ -19,7 +19,7 @@ body{
     font-size: 2.4375rem;
     font-weight: 300;
     color: #424242;
-    line-height: 1.3;
+    line-height: 1.6;
     margin: 1em 0;
     font-family: Roboto,sans-serif;
     -webkit-font-smoothing: antialiased;
@@ -40,12 +40,30 @@ ul {
     padding: 0;
 }
 button {
-    padding: 15px 10px;
+  
     border: 0;
     outline: 0;
     cursor: pointer;
     font-size: 20px;
+    background-color: #3367d6;
+    border: 0;
+    border-radius: .125rem;
+    color: #fff;
+    cursor: pointer;
+    display: inline-block;
+    font-size: .875rem;
+    font-weight: 500;
+    min-width: 6.25rem;
+    text-align: center;
+    text-decoration: none;
+    text-transform: uppercase;
+    margin-right: .875rem;
     
+    padding: .875rem 1.6875rem
+
+}
+button:hover, a:hover{
+    opacity: 0.7
 }
 
 /* Header */
@@ -64,9 +82,18 @@ header img {
     float: left;
     margin-right: 44px;
 }
+.subtext {
+    width: 300px;
+    display: inline-block;
+    float: right;
+    margin-top: -70px;
+    font-weight: bold;
+    color: #3367d6;
+}
 
 /* Main Body */
 main {
+    
 }
 main button {
     background-color: #3367d6;
@@ -86,10 +113,15 @@ main button {
     margin-left: 10px;
     margin-bottom: 10px;
 }
-.flex div.card h4 {
+.flex div.card h4,
+.flex div.card h3 {
     text-align: center;
-    padding: 20px 0;
-    font-size: 24px;
+    font-size: 1.125rem;
+    line-height: 1.4;
+    margin: 0;
+    color: #424242;
+    font-weight: normal;
+    padding: 2.3em;
 }
 .card-visit{
     position: relative;
@@ -103,8 +135,45 @@ main button {
     height: 100%;
     width: 100%;
 }
-
+h2.sub-title {
+    font-size: 1.9375rem;
+    font-weight: normal;
+    color: #424242;
+    line-height: 1.3;
+    margin: 1em 0;
 }
+#marketers .flex div.card h3 {
+    font-size: 1.4rem;
+    padding: 0 !important;
+    text-align: left;
+    margin: 10px;
+}
+#marketers .flex div.card h4 {
+    padding: 0 !important;
+    text-align: left;
+    color: #757575;
+    margin-left: 10px;
+}
+
+#diver-flex ul {
+    flex-basis: calc(33.33% - 15px);
+    padding-left: 15px;
+}
+#diver-flex ul li{
+    margin-bottom: 15px;
+}
+#diver-flex ul li a{
+    margin-bottom: 15px;
+    color: #3367d6;
+    text-decoration: none;
+}
+.sb {
+    font-size: 1.35rem;
+    font-weight: normal;
+    color: #424242;
+    line-height: 1.3;
+}
+
 #trend-flex div:nth-child(1),
 #trend-flex div:nth-child(6){
     flex-basis: calc(50% - 10px);
@@ -172,6 +241,21 @@ footer button {
     padding: 40px 0;
     color: #fff;
 }
+#footer-head h4 {
+    font-size: 2.4375rem;
+    font-weight: normal;
+    max-width: 300px;
+    margin-left: 100px;
+}
+#footer-head form input {
+    font-size: 1.25rem;
+    margin-top: 10px;
+}
+.sublinks li a{
+    font-size: .875rem;
+    color: #fff;
+    text-decoration: none;
+}
 
 
 /* Dropdown */
@@ -225,4 +309,21 @@ footer button {
     background-color: #fff;
 }
 
+/* For mobile phones: */
+@media only screen and (max-width: 668px) {
+    
+ 
+}
 
+
+ /* For tablets: */
+@media only screen and (min-width: 668px)and (max-width: 1024px) {
+    
+ 
+}
+
+/* For desktop: */
+@media only screen and (min-width: 1024px) {
+    
+ 
+}

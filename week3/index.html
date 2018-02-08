@@ -18,7 +18,10 @@
         </ul>
 
         <div id="nav">
-            <div><a href="">Consumer Insights</a></div>
+            <div class="dropdown">
+                <button class="dropbtn">Consumer Insights</button>
+
+            </div>
             <div class="dropdown">
                 <button class="dropbtn">Marketing Resources</button>
                 <div class="dropdown-content">
@@ -40,7 +43,7 @@
             </div>
         </div>
 
-        <div class="clearfix"/>
+        <div class="clearfix" />
 
     </header>
 
@@ -51,17 +54,26 @@
             <br/>
             <br/>
 
-            <p class="f32">Insights you want.</p>
-            <p class="f32">Data you need.</p>
-            <br/>
+            <p class="f32">Insights you want.
+                <br/>Data you need.</p>
+
+
             <p class="f20">Stay on top of the latest and greatest</p>
-            <br/>
-            <p><button>Subscribe</button></p>
+
+            <p>
+                <button>Subscribe</button>
+            </p>
+
+            <p>
+                <a href="" class="subtext">
+                    Over the past two years, mobile searches for toothpaste surged. Explore how category trends are shifting with our data feature >
+                </a>
+            </p>
         </div>
 
         <div id="trends">
 
-            <h3>Latest trends and stories</h3>
+            <h2 class="sub-title">Latest trends and stories</h2>
 
             <div id="trend-flex" class="flex">
 
@@ -107,35 +119,52 @@
 
         <div id="diver">
 
-            <h3>Take a deeper dive</h3>
+            <h2 class="sub-title">Take a deeper dive</h2>
 
             <div id="diver-flex" class="flex">
 
                 <ul>
-                    <li>Marketing Resources <img src="https://storage.googleapis.com/twg-content/documents/icon_resources-01.svg" width="30"/></li>
-                    <li><a href="">Data & Measurement</a></li>
-                    <li><a href="">Experience & Design</a></li>
-                    <li><a href="">Omnichannel</a></li>
-                    <li><a href="">Programmatic Advertising</a></li>
+                    <li class="sb">Marketing Resources
+                        <img src="https://storage.googleapis.com/twg-content/documents/icon_resources-01.svg" width="20" />
+                    </li>
+                    <li>
+                        <a href="">Data & Measurement</a>
+                    </li>
+                    <li>
+                        <a href="">Experience & Design</a>
+                    </li>
+                    <li>
+                        <a href="">Omnichannel</a>
+                    </li>
+                    <li>
+                        <a href="">Programmatic Advertising</a>
+                    </li>
                 </ul>
 
                 <ul>
-                    <li>Advertising Channels <img src="https://storage.googleapis.com/twg-content/documents/icon_marketingstrategies-01.svg" width="30"/></li>
-                    <li><a href="">Emerging Technology</a></li>
-                    <li><a href="">Search</a></li>
-                    <li><a href="">Video</a></li>
+                    <li class="sb">Advertising Channels
+                        <img src="https://storage.googleapis.com/twg-content/documents/icon_marketingstrategies-01.svg" width="20" />
+                    </li>
+                    <li>
+                        <a href="">Emerging Technology</a>
+                    </li>
+                    <li>
+                        <a href="">Search</a>
+                    </li>
+                    <li>
+                        <a href="">Video</a>
+                    </li>
                 </ul>
 
                 <ul>
-                    <li>Consumer Insights <img src="https://storage.googleapis.com/twg-content/documents/icon_consumerinsights-01.svg" width="30"/></li>
+                    <li class="sb">Consumer Insights
+                        <img src="https://storage.googleapis.com/twg-content/documents/icon_consumerinsights-01.svg" width="20" />
+                    </li>
                     <li>Learn about consumer trends, from how people are using apps to video consumption on mobile.</li>
-                    <li><a href="">Consumer Insights</a></li>
+                    <li>
+                        <a href="">Consumer Insights</a>
+                    </li>
                 </ul>
-
-                
-
-
-
 
             </div>
 
@@ -143,39 +172,39 @@
 
         <div id="marketers">
 
-            <h3>Tools for marketers</h3>
+            <h2 class="sub-title">Tools for marketers</h2>
 
             <div id="market-flex" class="flex">
 
                 <div class="card shopping">
                     <div class="pic"></div>
                     <div class="content">
-                        <h4>Shopping Insights</h4>
-                        <p>Explore trends and popularity of products across the U.S.</p>
+                        <h3>Shopping Insights</h3>
+                        <h4>Explore trends and popularity of products across the U.S.</h4>
                     </div>
                 </div>
 
                 <div class="card barometer">
                     <div class="pic"></div>
                     <div class="content">
-                        <h4>Consumer Barometer</h4>
-                        <p>Explore the role of online sources in the journey from consideration to purchase.</p>
+                        <h3>Consumer Barometer</h3>
+                        <h4>Explore the role of online sources in the journey from consideration to purchase.</h4>
                     </div>
                 </div>
 
                 <div class="card trends">
                     <div class="pic"></div>
                     <div class="content">
-                        <h4>Google Trends</h4>
-                        <p>Use real-time search data to help you gauge consumer search behaviors.</p>
+                        <h3>Google Trends</h3>
+                        <h4>Use real-time search data to help you gauge consumer search behaviors.</h4>
                     </div>
                 </div>
 
                 <div class="card benchmarks">
                     <div class="pic"></div>
                     <div class="content">
-                        <h4>Benchmarks</h4>
-                        <p>Pull up-to-date industry benchmarks for your display campaigns.</p>
+                        <h3>Benchmarks</h3>
+                        <h4>Pull up-to-date industry benchmarks for your display campaigns.</h4>
                     </div>
                 </div>
 
@@ -191,7 +220,7 @@
 
             <div class="row50 left">
 
-                    Get the latest data, insights, and inspiration from Google.
+                <h4>Get the latest data, insights, and inspiration from Google.</h4>
 
             </div>
             <div class="row50 right">
@@ -199,17 +228,22 @@
                 <form action="" method="">
 
                     <p>
-                        <input type="text" placeholder="Email Adress"/>
+                        <input type="text" placeholder="Email Adress" />
                     </p>
 
                     <p>
-                        <input type="text" placeholder="Company"/>
+                        <input type="text" placeholder="Company" />
                     </p>
 
-                    <p>Sign up to receive your selected communications from Google Inc. and its affiliates. Your information will be used in accordance with Google's privacy policy. You may opt out at any time.</p>
+                    <br/>
 
-                    <p><button>SUBSCRIBE</button></p>    
-                
+                    <p>Sign up to receive your selected communications from Google Inc. and its affiliates. Your information
+                        will be used in accordance with Google's privacy policy. You may opt out at any time.</p>
+
+                    <p>
+                        <button>SUBSCRIBE</button>
+                    </p>
+
                 </form>
 
             </div>
@@ -222,13 +256,25 @@
 
         <br/>
 
-        <ul>
-            <li><a href="">Google</a></li>
-            <li><a href="">About</a></li>
-            <li><a href="">Products</a></li>
-            <li><a href="">Advertising</a></li>
-            <li><a href="">Business</a></li>
-            <li><a href="">Privacy & Terms</a></li>
+        <ul class="sublinks">
+            <li>
+                <a href="">Google</a>
+            </li>
+            <li>
+                <a href="">About</a>
+            </li>
+            <li>
+                <a href="">Products</a>
+            </li>
+            <li>
+                <a href="">Advertising</a>
+            </li>
+            <li>
+                <a href="">Business</a>
+            </li>
+            <li>
+                <a href="">Privacy & Terms</a>
+            </li>
         </ul>
 
         <div class="clearfix"></div>
